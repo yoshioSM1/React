@@ -1,0 +1,67 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Contenedor del logotipo o título */
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1890ff;
+  }
+  
+  /* Sección de usuario y logout */
+  .navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  /* Nombre de usuario */
+  .user-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #434343;
+  }
+  
+  /* Botón de logout */
+  .logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ff4d4f;
+    transition: color 0.3s, transform 0.2s;
+    background: none;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .logout-button:hover {
+    color: #ff7875;
+    background-color: rgba(255, 77, 79, 0.05);
+  }
+  
+  .logout-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Para pantallas pequeñas */
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 10px 16px;
+    }
+    
+    .user-name {
+      font-size: 12px;
+    }
+  }
