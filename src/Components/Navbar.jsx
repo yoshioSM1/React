@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <div className='Navbar'>
-      <div className="welcome-message">Bienvenido, {user && user.email}</div>
+      <div className="welcome-message">Hola, {user && user.email}</div>
       <LogoutOutlined className="logout-icon" onClick={logout} /> 
     </div>
   );
