@@ -26,7 +26,7 @@ export default function Login({ mail }) {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h1 className="login-title">Welcome, user</h1>
+        <h1 className="login-title">Hola, user</h1>
         
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={24}>
